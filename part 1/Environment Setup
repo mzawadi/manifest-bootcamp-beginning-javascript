@@ -1,0 +1,11 @@
+Environment Setup
+=================
+
+1.  Sublime text or other text editor
+		[Sublime Text](http://www.sublimetext.com/)
+
+2.  Jasmine
+		[Jasmine](http://pivotal.github.io/jasmine/)
+
+3.  Verify you can start python web server
+		sudo python -m SimpleHTTPServer 86
