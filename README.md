@@ -1,0 +1,2 @@
+manifest-bootcamp-beginning-javascript
+======================================
