@@ -1,6 +1,6 @@
 describe("MathIsFun", function(){
-	var firstNumber;
-	var secondNumber;
+	var firstNumber,
+	secondNumber;
 	it("should be able to add 1+1", function(){
 		firstNumber = 1;
 		secondNumber = 1;

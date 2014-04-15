@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Are you making the grade?</title>
+
+    <script type="text/javascript" src="makingTheGrade.js"></script>
+     <style>
+         tr input {
+             text-align: center;
+         }
+     </style>
+</head>
+<body>
+<form id="gradesForm">
+    <table style="width:400px; border: 5px solid black; border-radius: 10px;border-collapse:collapse;">
+        <thead>
+        <th>Assignment</th>
+        <th>Grade Percent</th>
+        <th>Letter</th>
+        <th>Notes</th>
+        </thead>
+        <tr id="item1">
+            <td style='width:25%'>
+                <input type="assignment" value="Assignment 1">
+            </td>
+            <td style='width:25%'>
+                <input class="grade" value="50">
+            </td>
+            <td style='width:25%'>
+                <input class="letter" disabled="disabled">
+            </td>
+            <td style='width:25%'>
+                <input class="notes" value="Needs Improvement">
+            </td>
+        </tr>
+        <tr id="item2">
+            <td style='width:25%'>
+                <input type="assignment" value="Assignment 2">
+            </td>
+            <td style='width:25%'>
+                <input class="grade" value="10">
+            </td>
+            <td style='width:25%'>
+                <input class="letter" disabled="disabled">
+            </td>
+            <td style='width:25%'>
+                <input class="notes" value="Did you study?">
+            </td>
+        </tr>
+        <tr id="item3">
+            <td style='width:25%'>
+                <input type="assignment" value="Assignment 3">
+            </td>
+            <td style='width:25%'>
+                <input class="grade" value="90">
+            </td>
+            <td style='width:25%'>
+                <input class="letter" disabled="disabled">
+            </td>
+            <td style='width:25%'>
+                <input class="notes" value="Finally">
+            </td>
+        </tr>
+        <tr style="border-bottom:solid 1px black;">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tfoot>
+        <tr>
+            <td>
+                <button onclick="MakingTheGrade.calculateGrades(); return false;">Calculate</button>
+            </td>
+            <td><input id="gradePercent" disabled="disabled"></td>
+            <td><input id="finalGrade" disabled="disabled"></td>
+            <td></td>
+        </tr>
+        </tfoot>
+    </table>
+</form>
+</body>
+</html>
